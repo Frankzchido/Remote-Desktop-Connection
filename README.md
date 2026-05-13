@@ -34,3 +34,18 @@ This repository uses GitHub Actions to create an RDP tunnel via Ngrok on a Windo
 
 ### Contributing
 Feel free to open issues or submit pull requests for improvements.
+
+## Local RDP Setup (Ubuntu)
+
+For setting up RDP directly on an Ubuntu machine without GitHub Actions.
+
+### Usage
+1. Run `./setup_rdp.sh` on your Ubuntu system.
+2. The script will install xrdp, create a user, start the service, and print the connection details.
+3. Connect using Remote Desktop Connection.
+
+### Default Credentials
+- Username: `rdpuser`
+- Password: `password123`
+
+> Ensure your Ubuntu system has a desktop environment installed for the RDP session to display properly.
